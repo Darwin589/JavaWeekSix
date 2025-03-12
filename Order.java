@@ -19,6 +19,9 @@ public class Order {
     double total1;
     double paid;
     double change;
+    Scanner input = new Scanner(System.in);
+    System.out.println("Enter your name: ");
+    name = input.nextInt();
     Scanner input1 = new Scanner(System.in);
     System.out.println("Enter the number of burgers: ");
     burgers = input1.nextInt();
